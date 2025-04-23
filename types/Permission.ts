@@ -1,0 +1,1 @@
+export type Permission = 'view_sales' | 'manage_inventory' | 'manage_clients' | 'manage_staff' | 'manage_promotions';

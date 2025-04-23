@@ -1,0 +1,1 @@
+export type PromotionType = 'discount' | 'buy_one_get_one_free' | 'bundle_deal' | 'special_offer';

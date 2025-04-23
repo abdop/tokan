@@ -1,0 +1,1 @@
+export type PaymentFrequency = 'weekly' | 'biweekly' | 'monthly' | 'quarterly' | 'annually';
