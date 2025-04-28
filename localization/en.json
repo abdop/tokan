@@ -19,5 +19,11 @@
       "moveCurrent": "directory. This will move the current",
       "moveTo": "to"
     }
+  },
+  "tabs": {
+    "course": "Course",
+    "clients": "Clients",
+    "suppliers": "Suppliers",
+    "explore": "Explore"
   }
 }

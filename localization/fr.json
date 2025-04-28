@@ -19,5 +19,11 @@
       "moveCurrent": ". Cela déplacera le répertoire actuel",
       "moveTo": "vers"
     }
+  },
+  "tabs": {
+    "course": "Course",
+    "clients": "Clients",
+    "suppliers": "Fournisseurs",
+    "explore": "Explorer"
   }
 }
