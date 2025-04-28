@@ -4,6 +4,8 @@ import { CreditPayment } from './CreditPayment';
 
 export interface Client {
     grocerId: string;
+    name: string;
+    name_ar: string;
     creditLimit: number;
     creditBalance: number;
     warningThreshold: number;

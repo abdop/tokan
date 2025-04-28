@@ -4,7 +4,9 @@ export interface Promotion {
     id: string;
     grocerId: string;
     title: string;
+    title_ar: string;
     description: string;
+    description_ar: string;
     startDate: Date;
     endDate: Date;
     type: PromotionType;
@@ -15,4 +17,7 @@ export interface Promotion {
     publishPromotion: () => void;
     unpublishPromotion: () => void;
     editPromotion: () => void;
+    updateLocalization: () => void;
+    getLocalizedTitle: (language: string) => string;
+    getLocalizedDescription: (language: string) => string;
 }

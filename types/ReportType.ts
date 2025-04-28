@@ -1,0 +1,1 @@
+export type ReportType = 'sales' | 'inventory' | 'client_credit' | 'product_sales' | 'client_activity';

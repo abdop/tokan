@@ -5,7 +5,9 @@ export interface User {
     phone: string;
     password: string;
     userType: string;
+    preferredLanguage: string;
     createdAt: Date;
     authenticate: () => boolean;
     updateProfile: () => void;
+    setLanguagePreference: () => void;
 }

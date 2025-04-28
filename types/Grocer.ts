@@ -9,18 +9,17 @@ import { Promotion } from './Promotion';
 export interface Grocer extends User {
     storeId: string;
     storeName: string;
+    storeName_ar: string;
     storeAddress: string;
+    storeAddress_ar: string;
     logo: string;
     businessHours: BusinessHours;
+    defaultLanguage: string;
     createStore: () => void;
     updateStore: () => void;
     manageInventory: () => void;
     manageSales: () => void;
     managePromotions: () => void;
     manageClients: () => void;
-    products: Product[];
-    clients: Client[];
-    staff: Staff[];
-    sales: Sale[];
-    promotions: Promotion[];
+    updateStoreLocalization: () => void;
 }
