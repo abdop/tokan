@@ -28,6 +28,28 @@ export const useAuth = () => {
     return { data, error };
   };
 
+  const signUpWithEmail = async (email: string, password: string) => {
+    const { data, error } = await supabase.auth.signUp({
+      email,
+      password,
+    });
+    return { data, error };
+  };
+
+  const sendPasswordResetEmail = async (email: string) => {
+    const { data, error } = await supabase.auth.resetPasswordForEmail(email, {
+      redirectTo: 'https://your-app.com/reset-password',
+    });
+    return { data, error };
+  };
+
+  const signInWithMagicLink = async (email: string) => {
+    const { data, error } = await supabase.auth.signInWithOtp({
+      email,
+    });
+    return { data, error };
+  };
+
   const signOut = async () => {
     await supabase.auth.signOut();
   };
@@ -36,6 +58,9 @@ export const useAuth = () => {
     session,
     loading,
     signInWithEmail,
+    signUpWithEmail,
+    sendPasswordResetEmail,
+    signInWithMagicLink,
     signOut,
   };
 };
