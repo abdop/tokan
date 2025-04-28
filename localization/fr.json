@@ -1,0 +1,23 @@
+{
+  "hello": "Bonjour",
+  "welcome": "Bienvenue dans l'application !",
+  "home": {
+    "step1": {
+      "title": "Étape 1 : Essayez",
+      "editInstruction": "Modifiez {fileName} pour voir les changements.",
+      "press": "Appuyez sur",
+      "openDevTools": "pour ouvrir les outils de développement."
+    },
+    "step2": {
+      "title": "Étape 2 : Explorez",
+      "exploreInstruction": "Appuyez sur l'onglet Explorer pour en savoir plus sur ce qui est inclus dans cette application de démarrage."
+    },
+    "step3": {
+      "title": "Étape 3 : Prenez un nouveau départ",
+      "runCommand": "Lorsque vous êtes prêt, exécutez",
+      "getFresh": "pour obtenir un nouveau répertoire",
+      "moveCurrent": ". Cela déplacera le répertoire actuel",
+      "moveTo": "vers"
+    }
+  }
+}
